@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Categories"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:padding="20dp"
+        android:background="#4EE1D3"
+        >
+
+        <ImageView
+            android:id="@+id/logo_image"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:src="@drawable/splash"
+            />
+        <TextView
+            android:id="@+id/slogan_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="100dp"
+            android:text="CATEGORIES"
+            android:textSize="30sp"
+            android:fontFamily="@font/bungee"
+            android:textAlignment="center"
+            />
+    </RelativeLayout>
+
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="100dp"
+        android:textColor="@color/black"
+        android:text="GENERAL"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:drawableRight="@drawable/ic_right"
+        android:backgroundTint="#4EE1D3"/>
+
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/black"
+        android:text="TECHNICAL"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:drawableRight="@drawable/ic_right"
+        android:backgroundTint="#4EE1D3"/>
+
+
+</LinearLayout>
